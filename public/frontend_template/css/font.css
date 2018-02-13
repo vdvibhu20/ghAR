@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+
+body,p,
+.header-links ul li a{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+.navbar-nav.nav-links > li > a,
+.single-pw a span,
+.breadcomes li{
+	font-family: 'PT Sans', sans-serif;
+}
+
+body{
+	font-size:13px;
+	line-height:22px;
+}
+h1{
+	font-size:30px;
+	line-height:46px;
+}
+h2{
+	font-size:24px;
+	line-height:36px;
+}
+h3{
+	font-size:22px;
+	line-height:33px;
+}
+h4{
+	font-size:18px;
+	line-height:27px;
+}
+.sm h4{
+	font-size:16px;
+	line-height:24px;
+}
+h5{
+	font-size:15px;
+	line-height:21px;
+}
+h6{
+	font-size:14px;
+	line-height:20px;
+}
+.sm h6{
+	font-size:13px;
+	line-height:20px;
+}
+p,.p-like{
+	font-size:13px;
+	line-height:22px;
+}
+blockquote{
+	font-size:13px;
+	line-height:22px;
+}

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content=" a multi purpose landing page">
+		<meta name="author" content="bestpixels">
+		
+		<!-- Fav Icon  -->
+		<link rel="shortcut icon" href="images/ico/favicon.png">
+		<link href="images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="images/ico/favicon.ico" rel="icon" type="image/x-icon">
+		
+		<!-- Site Title  -->
+		<title>Listio - Real Estate PSD Template</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" >
+		
+		<!-- Magnific Popup CSS -->
+		<link rel="stylesheet" href="lib/Magnific-Popup/dist/magnific-popup.css"/>
+		
+		<!-- Select2 CSS -->
+		<link rel="stylesheet" href="lib/select2/css/select2.min.css"/>
+		
+		<!-- Custom styles for this template -->
+		<link href="css/font.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Color CSS -->
+		<link href="css/color.css" rel="stylesheet">
+		
+		<!-- <link href="css/color-1.css" rel="stylesheet"> -->
+			
+			
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+		
+		<!-- .log-in -->
+		<div class="log-in-modal modal fade" id="log-in-pop-up" tabindex="-1">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div class="modal-dialog" role="document">
+				
+							<div class="modal-content">
+								<div class="lsr-area active" id="log-in">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Login into Account</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="blog-single.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="text" placeholder="Password" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Sign In" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="sign-up-trigger" href="blog-single.html#sign-up">Not a memeber? Sign up.</a></li>
+											<li><a class="reset-trigger" href="blog-single.html#reset">Lost Password?</a></li>
+										</ul>
+									</div>
+									
+									
+								</div>
+								<div class="lsr-area" id="sign-up">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Make an Account</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="blog-single.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="text" placeholder="Email" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Register" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="log-in-trigger" href="blog-single.html#log-in">Log In</a></li>
+											<li><a class="reset-trigger" href="blog-single.html#reset">Lost Password?</a></li>
+										</ul>
+									</div>
+									
+									
+								</div>
+								<div class="lsr-area" id="reset">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Recover a Password</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="blog-single.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username or Email" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Recover Password" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="sign-up-trigger" href="blog-single.html#sign-up">Not a memeber? Sign up.</a></li>
+											<li><a class="log-in-trigger" href="blog-single.html#log-in">Log In</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div><!-- .log-in End -->
+		
+		<!-- .header-area -->
+		<div class="header-area">
+			<div class="overlay">
+				<div class="container">
+				
+					<div class="row">
+						<div class="col-md-12">
+							
+							<!-- .header-links -->
+							<div class="header-links text-right">
+								<ul>
+									<li><a href="blog-single.html#">How It Works</a></li>
+									<li><a href="blog-single.html#" data-toggle="modal" data-target="#log-in-pop-up">Log In</a></li>
+									<li><a class="alt" href="submit-property.html">Submit a new Property</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12">
+						
+							<nav class="navbar navbar-default">
+								<!-- .navbar-header -->
+								<div class="navbar-header">
+								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-navigation">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								  </button>
+								  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+								</div>
+
+								<!-- #site-navigation -->
+								<div class="collapse navbar-collapse" id="site-navigation">
+									<ul class="nav navbar-nav nav-options navbar-right">
+										<li><a class="hidden-xs hidden-sm" href="blog-single.html#"><img src="images/icons/search.png" alt="icons" /></a>
+											<form class="search-form clearfix" action="search.php.html">
+												<input type="text" placeholder="Search Keyword" />
+												<input type="submit" value="Go" />
+											</form>
+										</li>
+										<li class="hidden-xs hidden-sm"><a href="blog-single.html#"><img src="images/icons/share.png" alt="icons" /></a>
+											<ul class="social-share">
+												<li><a href="blog-single.html#"><img src="images/icons/instagram.png" alt="icons" /></a></li>
+												<li><a href="blog-single.html#"><img src="images/icons/facebook.png" alt="icons" /></a></li>
+												<li><a href="blog-single.html#"><img src="images/icons/dribble.png" alt="icons" /></a></li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="nav navbar-nav nav-links navbar-right">
+										<li><a href="index.html">HOME</a>
+											<ul>
+												<li><a href="home-orange.html">Home Orange</a></li>
+												<li><a href="home-purple.html">Home Purple</a></li>
+												<li><a href="home-search.html">home Search</a></li>
+												<li><a href="home-search-inline.html">Home Search Inline</a></li>
+											</ul>
+										</li>
+										<li><a href="properties-four.html">ALL PROPERTIES</a>
+											<ul>
+												<li><a href="properties-four.html">Properties Four </a></li>
+												<li><a href="properties-header.html">Properties Header</a></li>
+												<li><a href="properties-list.html">Properties List</a></li>
+												<li><a href="properties-sidebar.html">Properties Sidebar</a></li>
+												<li><a href="property-full.html">Properties Full</a></li>
+												<li><a href="property-full-sidebar.html">Properties Full Sidebar</a></li>
+											</ul>
+										</li>
+										<li><a href="blog-single.html#">FEATURES</a>
+											<ul>
+												<li><a href="headers.html">Headers</a></li>
+												<li><a href="property-widgets.html">Property Widgets</a></li>
+												<li><a href="typography.html">Typography</a></li>
+											</ul>
+										</li>
+										<li><a href="blog-single.html#">Dropdown</a>
+											<ul>
+												<li><a href="blog-single.html#">Lavel 1.1</a></li>
+												<li><a href="blog-single.html#">Lavel 1.2</a>
+													<ul>
+														<li><a href="blog-single.html#">Lavel 2.1</a></li>
+														<li><a href="blog-single.html#">Lavel 2.2</a></li>
+														<li><a href="blog-single.html#">Lavel 2.3</a></li>
+													</ul>
+												</li>
+												<li><a href="blog-single.html#">Lavel 1.3</a></li>
+											</ul>
+										</li>
+										<li><a href="blog-single.html#">PAGES</a>
+											<ul>
+												<li><a href="about.html">About</a></li>
+												<li><a href="agents.html">Agents</a></li>
+												<li><a href="agent-single.html">Agents Single</a></li>
+												<li><a href="blog.html">blog</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+												<li><a href="error.html">404 Error</a></li>
+												<li><a href="gallery.html">gallery</a></li>
+												<li><a href="gallery-single.html">Gallery Single</a></li>
+												<li><a href="user-profile.html">User Profie</a></li>
+												<li><a href="submit-property.html">Submit Property</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">CONTACT US</a></li>
+									</ul>
+								</div>
+							</nav>
+							
+						</div>
+					</div>
+					
+					<div class="row text-center">
+						
+						<div class="col-md-12">
+							
+							<div class="header-heading">
+								<h3>Our Blog Writings</h3>
+								<ul class="breadcomes">
+									<li><a href="blog-single.html#">HOME</a></li>
+									<li><a href="blog-single.html#">BLOG</a></li>
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div><!-- .header-area End-->
+		
+		<!-- .blog-full-area -->
+		<div class="blog-full-area without-head grey-bg">
+			<div class="container">
+				
+				<div class="row">
+				
+					<div class="col-md-8">
+						<div class="full-blog-post">
+							<img src="images/blog/large/1.jpg" alt="blog" />
+							<div class="full-blog-innr">
+							
+								<div class="full-blog-title clearfix">
+									<div class="full-blog-date pull-left">
+										<h6>SEP 30</h6>
+									</div>
+									<div class="full-left">
+										<h3>Why interior design matters Part 2</h3>
+										<ul class="sb-meta">
+											<li><a href="blog-single.html#">George Smith</a></li>
+											<li>-</li>
+											<li><a href="blog-single.html#">0 comments</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Proin molestie odio at orci consequat egestas. Nullam sagittis dolor congue sapien cursus, vel tristique metus faucibus. Sed sit amet elit at metus mattis elementum sit amet cursus quam. Morbi velit lacus, laoreet non odio sed, maximus interdum nisl. Duis ut ex nec felis eleifend placerat eget consectetur dui. Curabitur vel malesuada massa. Mauris dictum lobortis purus. Vivamus vulputate venenatis dui at hendrerit. Curabitur non tellus suscipit, elementum erat id, porttitor lacus. Proin sed nunc in nisi ultrices ultrices ac a purus. Sed id velit ac elit condimentum mollis. Praesent pharetra, purus vitae rhoncus sollicitudin, tellus mi molestie nisi, vitae imperdiet elit diam et ligula.</p>
+								
+								<p>Etiam at lectus pellentesque, eleifend massa et, ultricies leo. Vivamus semper luctus risus vitae auctor. Fusce in orci pretium purus convallis hendrerit ut sed magna. Donec vulputate scelerisque justo a sollicitudin. Nunc metus turpis, viverra non iaculis sit amet, sodales quis ante. Nunc aliquet velit eget nisi mollis feugiat at at dui. Duis dictum odio ac arcu varius lobortis. Vivamus quis aliquam elit. Sed efficitur nibh at est maximus, a efficitur urna molestie. Etiam ac sem suscipit, vulputate quam at, vulputate lorem.</p>
+								
+								<img src="images/blog/large/2.jpg" alt="blog" />
+								
+								<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Proin molestie odio at orci consequat egestas. Nullam sagittis dolor congue sapien cursus, vel tristique metus faucibus. Sed sit amet elit at metus mattis elementum sit amet cursus quam. Morbi velit lacus, laoreet non odio sed, maximus interdum nisl. Duis ut ex nec felis eleifend placerat eget consectetur dui. Curabitur vel malesuada massa. Mauris dictum lobortis purus.</p>
+								
+								<p>Vivamus vulputate venenatis dui at hendrerit. Curabitur non tellus suscipit, elementum erat id, porttitor lacus. Proin sed nunc in nisi ultrices ultrices ac a purus. Sed id velit ac elit condimentum mollis. Praesent pharetra, purus vitae rhoncus sollicitudin, tellus mi molestie nisi, vitae imperdiet elit diam et ligula. Etiam at lectus pellentesque, eleifend massa et, ultricies leo. Vivamus semper luctus risus vitae auctor. </p>
+								
+							</div>
+							
+							<div class="comments-area">
+								<div class="comments-list">
+									<h5>There are 3 comments in this post</h5>
+									<div class="single-comment sm">
+										<div class="row no-margin">
+											<div class="col-sm-1 col-xs-2 no-padding">
+												<div class="user-pic">
+													<img src="images/blog/comment/1.png" alt="comment" />
+												</div>
+											</div>
+											<div class="col-sm-11 col-xs-10 no-padding">
+												<div class="comment-info">
+													<h6 class="row">
+														<a class="col-sm-6 col-xs-12" href="blog-single.html#">Kim Sirrachi</a> <a class="col-sm-6 col-xs-12 text-right mobile-left" href="blog-single.html#">2 days ago / Reply</a>
+													</h6>
+													<p>Proin molestie odio at orci consequat egestas. Nullam sagittis dolor congue sapien cursus, vel tritique metus faucibus. Sed sit amet elit at metus mattis elementum sit amet cursus quam. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="single-comment sm">
+										<div class="row no-margin">
+											<div class="col-sm-1 col-xs-2 no-padding">
+												<div class="user-pic">
+													<img src="images/blog/comment/2.png" alt="comment" />
+												</div>
+											</div>
+											<div class="col-sm-11 col-xs-10 no-padding">
+												<div class="comment-info">
+													<h6 class="row">
+														<a class="col-sm-6 col-xs-12" href="blog-single.html#">George White</a> <a class="col-sm-6 col-xs-12 text-right mobile-left" href="blog-single.html#">2 days ago / Reply</a>
+													</h6>
+													<p>Proin molestie odio at orci consequat egestas. Nullam sagittis dolor congue sapien cursus, vel tritique metus faucibus. Sed sit amet elit at metus mattis elementum sit amet cursus quam. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="single-comment sm sc-label2">
+										<div class="row no-margin">
+											<div class="col-sm-1 col-xs-2 no-padding">
+												<div class="user-pic">
+													<img src="images/blog/comment/3.png" alt="comment" />
+												</div>
+											</div>
+											<div class="col-sm-11 col-xs-10 no-padding">
+												<div class="comment-info">
+													<h6 class="row">
+														<a class="col-sm-6 col-xs-12" href="blog-single.html#">Sally Shinkar</a> <a class="col-sm-6 col-xs-12 text-right mobile-left" href="blog-single.html#">2 days ago / Reply</a>
+													</h6>
+													<p>Proin molestie odio at orci consequat egestas. Nullam sagittis dolor congue sapien cursus, vel tritique metus faucibus. Sed sit amet elit at metus mattis elementum sit amet cursus quam. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="comment-form">
+									<h5>Post a Comment</h5>
+									<form action="comment-form.php.html">
+										<div class="row">
+											<div class="col-md-4">
+												<!-- .single-form-element -->
+												<div class="single-form-element">
+													<input type="text" placeholder="Your Name" name="Your-Name" />
+												</div>
+											</div>
+											<div class="col-md-4">
+												<!-- .single-form-element -->
+												<div class="single-form-element">
+													<input type="text" placeholder="Your Email" name="Your-Email" />
+												</div>
+											</div>
+											<div class="col-md-4">
+												<!-- .single-form-element -->
+												<div class="single-form-element">
+													<input type="text" placeholder="Your Website" name="Your-Website" />
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<!-- .single-form-element -->
+												<div class="single-form-element">
+													<textarea name="Enter-Message" id="Enter-Message" placeholder="Enter Message"></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<input class="button" type="submit" value="Send" />
+											</div>
+										</div>
+									</form>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					<div class="col-md-4">
+						<div class="sidebar-area">
+							<div class="single-sidebar-widget">
+								<form class="sidebar-search clearfix" action="search.php.html">
+									<input type="text" placeholder="Shortlist Search" />
+									<input type="submit" value="" />
+								</form>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Search Districts</h5>
+								<ul class="list-in-widget">
+									<li><a href="blog-single.html#">Tower Hamlets</a></li>
+									<li><a href="blog-single.html#">Kensington and Chelsea</a></li>
+									<li><a href="blog-single.html#">Greenwich</a></li>
+									<li><a href="blog-single.html#">Waltham Forrest</a></li>
+									<li><a href="blog-single.html#">Westminster</a></li>
+									<li><a href="blog-single.html#">Kingston upon Thames</a></li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Favourite Properties</h5>
+								<ul class="blog-widgets">
+									<li class="single-bw">	
+										<a href="blog-single.html#">
+											<img src="images/thumbs/4.png" alt="Property" />
+											<p>Bathrooms you haven’t seen before</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/5.png" alt="Property" />
+											<p>How to properly enjoy your holidays</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/6.png" alt="Property" />
+											<p>Most comfortable hotel bedrooms</p>
+											<span>Read now</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Sold Properties</h5>
+								<ul class="list-in-widget"> 
+									<li><a href="blog-single.html#">December 2014<span>(4)</span></a></li>
+									<li><a href="blog-single.html#">October 2014<span>(1)</span></a></li>
+									<li><a href="blog-single.html#">May 2013<span>(13)</span></a></li>
+									<li><a href="blog-single.html#">August 2012<span>(5)</span></a></li>
+									<li><a href="blog-single.html#">May 2012<span>(3)</span></a></li>
+									<li><a href="blog-single.html#">July 2011<span>(19)</span></a></li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Search by Tags</h5>
+								<ul class="property-tags">
+									<li><a href="blog-single.html#">apartment</a></li>
+									<li><a href="blog-single.html#">house</a></li>
+									<li><a href="blog-single.html#">kitchen</a></li>
+									<li><a href="blog-single.html#">garage</a></li>
+									<li><a href="blog-single.html#">renovated apartment</a></li>
+									<li><a href="blog-single.html#">business</a></li>
+									<li><a href="blog-single.html#">real estate</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					
+				</div>
+				
+			</div>
+		</div><!-- .latest-properties-area End -->
+		
+		<!-- .partners-area -->
+		<div class="partners-area dark">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<ul>
+							<li><img src="images/partners/black-1.png" alt="partners" /></li>
+							<li><img src="images/partners/black-2.png" alt="partners" /></li>
+							<li><img src="images/partners/black-3.png" alt="partners" /></li>
+							<li><img src="images/partners/black-4.png" alt="partners" /></li>
+							<li><img src="images/partners/black-5.png" alt="partners" /></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- .partners-area End -->
+		
+		<!-- .footer-area -->
+		<div class="footer-area">
+			
+			<!-- .footer-top -->
+			<div class="footer-top">
+				<div class="container">
+				
+					<div class="row">
+					
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget about-widget">
+								<img src="images/footer-logo.png" alt="footer-logo" />
+								<p>Cras viverra ex et aliquam aliquam. In tempor finibus sapien sed interdum. Donec ac leo eu magna vehicula sodales.</p>
+								<p>Nulla consequat sed nisi a finibus. Etiam volutpat, felis sit amet rhoncus euismod, felis enim molestie sapien, quis ultrices diam dui vel elit.</p>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Top Properties</h6>
+								</div>
+								<ul class="top-properties-widget">
+									<li class="single-pw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/1.png" alt="Property" />
+											<p>Luxurious San Fran Property</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+									<li class="single-pw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/2.png" alt="Property" />
+											<p>Spacious Apartment</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+									<li class="single-pw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/3.png" alt="Property" />
+											<p>Boston Skywalk Apartment</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Social Feed</h6>
+								</div>
+								<ul class="social-feed-widget">
+									<li class="single-sfw">
+										<p><a href="blog-single.html#">@listio_us</a> Which one of Boston renovated properties is already giving his owner millions and why. <a href="blog-single.html#">http://list.io/5525</a> <span class="flatform-name">twitter</span></p>
+									</li>
+									<li class="single-sfw">
+										<p><a href="blog-single.html#">Listio Properties</a> : We have just launched our new website that is serious game changer. Check it out and let us know what you think about it. <a href="blog-single.html#">http://list.io</a> <span class="flatform-name">facebook</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Best from Blog</h6>
+								</div>
+								<ul class="blog-widgets">
+									<li class="single-bw">	
+										<a href="blog-single.html#">
+											<img src="images/thumbs/4.png" alt="Property" />
+											<p>Bathrooms you haven’t seen before</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/5.png" alt="Property" />
+											<p>How to properly enjoy your holidays</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="blog-single.html#">
+											<img src="images/thumbs/6.png" alt="Property" />
+											<p>Most comfortable hotel bedrooms</p>
+											<span>Read now</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- .footer-bottom -->
+			<div class="footer-bottom">
+				<div class="container">
+				
+					<div class="row">
+					
+						<div class="col-md-6 col-sm-6 mobile-center">
+							<span class="copyright-text">© Copyright 2015, All Rights Reserved, <a href="blog-single.html#">Listio</a></span>
+						</div>
+						
+						<div class="col-md-6 col-sm-6 text-right mobile-center">                              
+							<ul class="footer-links">
+								<li><a href="blog-single.html#">Home</a></li>
+								<li><a href="blog-single.html#">Terms</a></li>
+								<li><a href="blog-single.html#">Conditions</a></li>
+								<li><a href="blog-single.html#">Privacy</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+		</div><!-- .footer-area End -->
+		
+		
+		
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		<script src="js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- jQuery Simple Form
+		================================================== -->
+		<!--<script src="lib/Simple-Form/validation.js"></script>
+		<script src="lib/Simple-Form/form.js"></script>
+		<script src="lib/Simple-Form/index.js"></script>-->
+		
+		<!-- jQuery Filterizr.js
+		================================================== -->
+		<script src="lib/filterizr/jquery.filterizr.js"></script>
+		
+		<!-- jQuery Magnific-Popup
+		================================================== -->
+		<script src="lib/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+		
+		<!-- Select2
+		================================================== -->
+		<script src="lib/select2/js/select2.min.js"></script>
+		
+		<!-- jQuery BxSlider
+		================================================== -->
+		<script src="lib/BxSlider/jquery.bxslider.min.js"></script>
+		
+		<!-- Google Map
+		================================================== -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+		
+		<!-- jQuery Custom
+		================================================== -->
+		<script src="js/custom.js" type="text/javascript"></script>
+	
+	</body>
+</html>

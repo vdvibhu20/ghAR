@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content=" a multi purpose landing page">
+		<meta name="author" content="bestpixels">
+		
+		<!-- Fav Icon  -->
+		<link rel="shortcut icon" href="images/ico/favicon.png">
+		<link href="images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="images/ico/favicon.ico" rel="icon" type="image/x-icon">
+		
+		<!-- Site Title  -->
+		<title>Listio - Real Estate PSD Template</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" >
+		
+		<!-- Magnific Popup CSS -->
+		<link rel="stylesheet" href="lib/Magnific-Popup/dist/magnific-popup.css"/>
+		
+		<!-- Select2 CSS -->
+		<link rel="stylesheet" href="lib/select2/css/select2.min.css"/>
+		
+		<!-- Custom styles for this template -->
+		<link href="css/font.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Color CSS -->
+		<link href="css/color.css" rel="stylesheet">
+		
+		<!-- <link href="css/color-1.css" rel="stylesheet"> -->
+			
+			
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body>
+		
+		<!-- .log-in -->
+		<div class="log-in-modal modal fade" id="log-in-pop-up" tabindex="-1">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div class="modal-dialog" role="document">
+				
+							<div class="modal-content">
+								<div class="lsr-area active" id="log-in">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Login into Account</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="properties-sidebar.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="text" placeholder="Password" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Sign In" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="sign-up-trigger" href="properties-sidebar.html#sign-up">Not a memeber? Sign up.</a></li>
+											<li><a class="reset-trigger" href="properties-sidebar.html#reset">Lost Password?</a></li>
+										</ul>
+									</div>
+									
+									
+								</div>
+								<div class="lsr-area" id="sign-up">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Make an Account</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="properties-sidebar.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="text" placeholder="Email" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Register" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="log-in-trigger" href="properties-sidebar.html#log-in">Log In</a></li>
+											<li><a class="reset-trigger" href="properties-sidebar.html#reset">Lost Password?</a></li>
+										</ul>
+									</div>
+									
+									
+								</div>
+								<div class="lsr-area" id="reset">
+								
+									<div class="lsr-head">
+										<div class="row">
+											<div class="col-xs-9">
+												<h3>Recover a Password</h3>
+											</div>
+											<div class="col-xs-3 text-right">
+												<a href="properties-sidebar.html#" class="close" data-dismiss="modal" aria-label="Close"><img src="images/icons/x.png" alt="icon" /></a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="lsr-content">
+										<form action="login.php.html">
+											<div class="single-form-element">
+												<input type="text" placeholder="Username or Email" />
+											</div>
+											
+											<div class="single-form-element">
+												<input type="submit" class="button" value="Recover Password" />
+											</div>
+										</form>
+										
+										<ul class="form-nav">
+											<li><a class="sign-up-trigger" href="properties-sidebar.html#sign-up">Not a memeber? Sign up.</a></li>
+											<li><a class="log-in-trigger" href="properties-sidebar.html#log-in">Log In</a></li>
+										</ul>
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div><!-- .log-in End -->
+		
+		<!-- .header-area -->
+		<div class="header-area">
+			<div class="overlay">
+				<div class="container">
+				
+					<div class="row">
+						<div class="col-md-12">
+							
+							<!-- .header-links -->
+							<div class="header-links text-right">
+								<ul>
+									<li><a href="properties-sidebar.html#">How It Works</a></li>
+									<li><a href="properties-sidebar.html#" data-toggle="modal" data-target="#log-in-pop-up">Log In</a></li>
+									<li><a class="alt" href="submit-property.html">Submit a new Property</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12">
+						
+							<nav class="navbar navbar-default">
+								<!-- .navbar-header -->
+								<div class="navbar-header">
+								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-navigation">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								  </button>
+								  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+								</div>
+
+								<!-- #site-navigation -->
+								<div class="collapse navbar-collapse" id="site-navigation">
+									<ul class="nav navbar-nav nav-options navbar-right">
+										<li><a class="hidden-xs hidden-sm" href="properties-sidebar.html#"><img src="images/icons/search.png" alt="icons" /></a>
+											<form class="search-form clearfix" action="search.php.html">
+												<input type="text" placeholder="Search Keyword" />
+												<input type="submit" value="Go" />
+											</form>
+										</li>
+										<li class="hidden-xs hidden-sm"><a href="properties-sidebar.html#"><img src="images/icons/share.png" alt="icons" /></a>
+											<ul class="social-share">
+												<li><a href="properties-sidebar.html#"><img src="images/icons/instagram.png" alt="icons" /></a></li>
+												<li><a href="properties-sidebar.html#"><img src="images/icons/facebook.png" alt="icons" /></a></li>
+												<li><a href="properties-sidebar.html#"><img src="images/icons/dribble.png" alt="icons" /></a></li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="nav navbar-nav nav-links navbar-right">
+										<li><a href="index.html">HOME</a>
+											<ul>
+												<li><a href="home-orange.html">Home Orange</a></li>
+												<li><a href="home-purple.html">Home Purple</a></li>
+												<li><a href="home-search.html">home Search</a></li>
+												<li><a href="home-search-inline.html">Home Search Inline</a></li>
+											</ul>
+										</li>
+										<li><a href="properties-four.html">ALL PROPERTIES</a>
+											<ul>
+												<li><a href="properties-four.html">Properties Four </a></li>
+												<li><a href="properties-header.html">Properties Header</a></li>
+												<li><a href="properties-list.html">Properties List</a></li>
+												<li><a href="properties-sidebar.html">Properties Sidebar</a></li>
+												<li><a href="property-full.html">Properties Full</a></li>
+												<li><a href="property-full-sidebar.html">Properties Full Sidebar</a></li>
+											</ul>
+										</li>
+										<li><a href="properties-sidebar.html#">FEATURES</a>
+											<ul>
+												<li><a href="headers.html">Headers</a></li>
+												<li><a href="property-widgets.html">Property Widgets</a></li>
+												<li><a href="typography.html">Typography</a></li>
+											</ul>
+										</li>
+										<li><a href="properties-sidebar.html#">Dropdown</a>
+											<ul>
+												<li><a href="properties-sidebar.html#">Lavel 1.1</a></li>
+												<li><a href="properties-sidebar.html#">Lavel 1.2</a>
+													<ul>
+														<li><a href="properties-sidebar.html#">Lavel 2.1</a></li>
+														<li><a href="properties-sidebar.html#">Lavel 2.2</a></li>
+														<li><a href="properties-sidebar.html#">Lavel 2.3</a></li>
+													</ul>
+												</li>
+												<li><a href="properties-sidebar.html#">Lavel 1.3</a></li>
+											</ul>
+										</li>
+										<li><a href="properties-sidebar.html#">PAGES</a>
+											<ul>
+												<li><a href="about.html">About</a></li>
+												<li><a href="agents.html">Agents</a></li>
+												<li><a href="agent-single.html">Agents Single</a></li>
+												<li><a href="blog.html">blog</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+												<li><a href="error.html">404 Error</a></li>
+												<li><a href="gallery.html">gallery</a></li>
+												<li><a href="gallery-single.html">Gallery Single</a></li>
+												<li><a href="user-profile.html">User Profie</a></li>
+												<li><a href="submit-property.html">Submit Property</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">CONTACT US</a></li>
+									</ul>
+								</div>
+							</nav>
+							
+						</div>
+					</div>
+					
+					<div class="row text-center">
+						
+						<div class="col-md-12">
+							
+							<div class="header-heading">
+								<h3>Latest Properties</h3>
+								<ul class="breadcomes">
+									<li><a href="properties-sidebar.html#">HOME</a></li>
+									<li><a href="properties-sidebar.html#">PROPERTIES</a></li>
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div><!-- .header-area End-->
+		
+		<!-- .search-property-area -->
+		<div class="search-property-area bottom-sap without-head">
+			<div class="container">
+			
+				<form action="search.php.html" class="property-search-form">
+					<div class="row">
+					
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Property Type</span>
+								<select name="property-type" id="property-type">
+									<option value="property-type-any">Any</option>
+									<option value="property-type-one">One</option>
+									<option value="property-type-two">Two</option>
+									<option value="property-type-three">Three</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Property City</span>
+								<select name="property-city" id="property-city">
+									<option value="property-city-any">Any</option>
+									<option value="property-city-one">One</option>
+									<option value="property-city-two">Two</option>
+									<option value="property-city-three">Three</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Property ZIP</span>
+								<input type="text" placeholder="Any" name="property-zip" />
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Property ID</span>
+								<input type="text" placeholder="Any" name="property-id" />
+							</div>
+						</div>
+						
+					</div>
+					
+					<div class="row">
+					
+						<div class="col-md-2 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Minimum Price</span>
+								<select name="minimum-price" id="minimum-price">
+									<option value="minimum-price-any">Any</option>
+									<option value="minimum-price-15">$15.00</option>
+									<option value="minimum-price-25">$25.00</option>
+									<option value="minimum-price-35">$35.00</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-2 col-sm-6">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Maximum Price</span>
+								<select name="maximum-price" id="maximum-price">
+									<option value="maximum-price-any">Any</option>
+									<option value="maximum-price-55">$55.00</option>
+									<option value="maximum-price-65">$65.00</option>
+									<option value="maximum-price-75">$75.00</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Minimum Beds</span>
+								<select name="minimum-beds" id="minimum-beds">
+									<option value="minimum-beds-any">Any</option>
+									<option value="minimum-beds-1">1</option>
+									<option value="minimum-beds-2">2</option>
+									<option value="minimum-beds-3">3</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Minimum Baths</span>
+								<select name="property-city" id="minimum-baths">
+									<option value="minimum-baths-any">Any</option>
+									<option value="minimum-baths-1">1</option>
+									<option value="minimum-baths-2">2</option>
+									<option value="minimum-baths-3">3</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<span class="sfe-label">Sale Type</span>
+								<ul class="radio-button clearfix">
+									<li><input type="radio" checked name="sale-type" value="sale" id="type-sale"><label for="type-sale">Sale</label></li>
+									<li><input type="radio" name="sale-type" value="rent" id="type-rent"><label for="type-rent">Rent</label></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-2 col-sm-12">
+							<!-- .single-form-element -->
+							<div class="single-form-element">
+								<input class="button alt" type="submit" value="Search">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div><!-- .search-property-area End -->
+		
+		<!-- .latest-properties-area -->
+		<div class="latest-properties-area without-head grey-bg dark">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="properties-organizing pb45 clearfix">
+							<div class="property-shorting pull-left">
+								<span class="property-short">Sort by -</span>
+								<select name="property-short">
+									<option value="best-rating">Best Rating</option>
+									<option value="best-rating">Best Price</option>
+								</select>
+							</div>
+							<div class="property-position pull-left">
+								<ul>
+									<li><img src="images/icons/line.png" alt="icons" /></li>
+									<li><img src="images/icons/grid.png" alt="icons" /></li>
+								</ul>
+							</div>
+							<div class="property-pagination pull-left">
+								<nav aria-label="Page navigation">
+									<ul class="pagination">
+										<!-- <li>
+											<a href="#" aria-label="Previous">
+												<span aria-hidden="true"><img src="images/icons/left-arrow.png" alt="icons" /></span>
+											</a>
+										</li> -->
+										<li class="active"><a href="properties-sidebar.html#">1</a></li>
+										<li><a href="properties-sidebar.html#">2</a></li>
+										<li>
+											<a href="properties-sidebar.html#" aria-label="Next">
+												<span aria-hidden="true"><img src="images/icons/right-arrow.png" alt="icons" /></span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col-md-8">
+						
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/1.jpg" alt="properties" />
+										<span class="sp-badge for-sale">FOR SALE</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp1">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp1" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Living Apartment</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$168.000</h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>130 sq feet</li>
+													<li>4 beds</li>
+													<li>3 garages</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/2.jpg" alt="properties" />
+										<span class="sp-badge for-rent">FOR rent</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp2">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp2" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Countryside Villa</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$8.000 / <small>week</small></h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>80 sq feet</li>
+													<li>4 beds</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/3.jpg" alt="properties" />
+										<span class="sp-badge for-sale">FOR SALE</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp3">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp3" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Spacious Apartment</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$48.000</h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>130 sq feet</li>
+													<li>4 beds</li>
+													<li>3 garages</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/1.jpg" alt="properties" />
+										<span class="sp-badge for-sale">FOR SALE</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp4">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp4" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Bright Terraced House</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$168.000</h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>130 sq feet</li>
+													<li>4 beds</li>
+													<li>3 garages</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/2.jpg" alt="properties" />
+										<span class="sp-badge for-rent">FOR rent</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp5">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp5" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Two Bedroom Pool Villa</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$8.000 / <small>week</small></h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>80 sq feet</li>
+													<li>4 beds</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6 col-sm-6">
+								<!-- .single-property -->
+								<div class="single-property large">
+									<div class="sp-top">
+										<img src="images/properties/large/3.jpg" alt="properties" />
+										<span class="sp-badge for-sale">FOR SALE</span>
+										<a class="sp-top-over" data-toggle="modal" data-target="#pp6">
+											<img src="images/icons/search-small2.png" alt="icons" />
+										</a>
+									</div>
+									<!-- .property-preview-area -->
+									<div class="property-preview-area modal fade" id="pp6" tabindex="-1">
+										<div class="modal-dialog" role="document">
+											<div class="container">
+												<div class="modal-content">
+													<div class="row no-margin">
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-image">
+																<img src="images/properties/ex-large/1.jpg" alt="properties" />
+															</div>
+														</div>
+														<div class="col-md-6 no-padding">
+															<div class="property-preview-text">
+																<span class="pp-badge relative for-sale">FOR SALE</span>
+																<h3>Beautiful Apartment, 345 S 3st Ave, Boston</h3>
+																<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin. Curabitur consequat vulputate iaculis. Suspendisse potenti. Morbi a diam dictum.</p>
+																<h4>$168.000</h4>
+																<a href="properties-sidebar.html#" class="button line-button blue">More Property InformatiQon</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="sp-bottom">
+										<div class="row">
+											<div class="col-sm-7">
+												<h5>Creative Apartment</h5>
+											</div>
+											<div class="col-sm-5 text-right mobile-left">
+												<ul class="property-rating">
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+													<li><img src="images/icons/star.png" alt="star" /></li>
+												</ul>
+											</div>
+										</div>
+										<p>This wonderful house is located on the Western Hill and has a beautiful view onto the city of Los Angeles through the full glass cabin.</p>
+										<div class="clearfix">
+											<div class="pull-left">
+												<h4>$48.000</h4>
+											</div>
+											<div class="pull-right text-right mobile-left">
+												<ul class="property-meta">
+													<li>130 sq feet</li>
+													<li>4 beds</li>
+													<li>3 garages</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<div class="properties-organizing pt30 clearfix">
+									<div class="property-shorting pull-left">
+										<span class="property-short">Sort by -</span>
+										<select name="property-short">
+											<option value="best-rating">Best Rating</option>
+											<option value="best-rating">Best Price</option>
+										</select>
+									</div>
+									<div class="property-position pull-left">
+										<ul>
+											<li><img src="images/icons/line.png" alt="icons" /></li>
+											<li><img src="images/icons/grid.png" alt="icons" /></li>
+										</ul>
+									</div>
+									<div class="property-pagination pull-left">
+										<nav aria-label="Page navigation">
+											<ul class="pagination">
+												<!-- <li>
+													<a href="#" aria-label="Previous">
+														<span aria-hidden="true"><img src="images/icons/left-arrow.png" alt="icons" /></span>
+													</a>
+												</li> -->
+												<li class="active"><a href="properties-sidebar.html#">1</a></li>
+												<li><a href="properties-sidebar.html#">2</a></li>
+												<li>
+													<a href="properties-sidebar.html#" aria-label="Next">
+														<span aria-hidden="true"><img src="images/icons/right-arrow.png" alt="icons" /></span>
+													</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div class="col-md-4">
+						<div class="sidebar-area">
+							<div class="single-sidebar-widget">
+								<form class="sidebar-search clearfix" action="search.php.html">
+									<input type="text" placeholder="Shortlist Search" />
+									<input type="submit" value="" />
+								</form>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Search Districts</h5>
+								<ul class="list-in-widget">
+									<li><a href="properties-sidebar.html#">Tower Hamlets</a></li>
+									<li><a href="properties-sidebar.html#">Kensington and Chelsea</a></li>
+									<li><a href="properties-sidebar.html#">Greenwich</a></li>
+									<li><a href="properties-sidebar.html#">Waltham Forrest</a></li>
+									<li><a href="properties-sidebar.html#">Westminster</a></li>
+									<li><a href="properties-sidebar.html#">Kingston upon Thames</a></li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Favourite Properties</h5>
+								<ul class="blog-widgets">
+									<li class="single-bw">	
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/4.png" alt="Property" />
+											<p>Bathrooms you haven’t seen before</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/5.png" alt="Property" />
+											<p>How to properly enjoy your holidays</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/6.png" alt="Property" />
+											<p>Most comfortable hotel bedrooms</p>
+											<span>Read now</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Sold Properties</h5>
+								<ul class="list-in-widget"> 
+									<li><a href="properties-sidebar.html#">December 2014<span>(4)</span></a></li>
+									<li><a href="properties-sidebar.html#">October 2014<span>(1)</span></a></li>
+									<li><a href="properties-sidebar.html#">May 2013<span>(13)</span></a></li>
+									<li><a href="properties-sidebar.html#">August 2012<span>(5)</span></a></li>
+									<li><a href="properties-sidebar.html#">May 2012<span>(3)</span></a></li>
+									<li><a href="properties-sidebar.html#">July 2011<span>(19)</span></a></li>
+								</ul>
+							</div>
+							<div class="single-sidebar-widget">
+								<h5 class="sidebar-widget-title">Search by Tags</h5>
+								<ul class="property-tags">
+									<li><a href="properties-sidebar.html#">apartment</a></li>
+									<li><a href="properties-sidebar.html#">house</a></li>
+									<li><a href="properties-sidebar.html#">kitchen</a></li>
+									<li><a href="properties-sidebar.html#">garage</a></li>
+									<li><a href="properties-sidebar.html#">renovated apartment</a></li>
+									<li><a href="properties-sidebar.html#">business</a></li>
+									<li><a href="properties-sidebar.html#">real estate</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					
+				</div>
+				
+			</div>
+		</div><!-- .latest-properties-area End -->
+		
+		<!-- .partners-area -->
+		<div class="partners-area dark">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<ul>
+							<li><img src="images/partners/black-1.png" alt="partners" /></li>
+							<li><img src="images/partners/black-2.png" alt="partners" /></li>
+							<li><img src="images/partners/black-3.png" alt="partners" /></li>
+							<li><img src="images/partners/black-4.png" alt="partners" /></li>
+							<li><img src="images/partners/black-5.png" alt="partners" /></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- .partners-area End -->
+		
+		<!-- .footer-area -->
+		<div class="footer-area">
+			
+			<!-- .footer-top -->
+			<div class="footer-top">
+				<div class="container">
+				
+					<div class="row">
+					
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget about-widget">
+								<img src="images/footer-logo.png" alt="footer-logo" />
+								<p>Cras viverra ex et aliquam aliquam. In tempor finibus sapien sed interdum. Donec ac leo eu magna vehicula sodales.</p>
+								<p>Nulla consequat sed nisi a finibus. Etiam volutpat, felis sit amet rhoncus euismod, felis enim molestie sapien, quis ultrices diam dui vel elit.</p>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Top Properties</h6>
+								</div>
+								<ul class="top-properties-widget">
+									<li class="single-pw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/1.png" alt="Property" />
+											<p>Luxurious San Fran Property</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+									<li class="single-pw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/2.png" alt="Property" />
+											<p>Spacious Apartment</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+									<li class="single-pw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/3.png" alt="Property" />
+											<p>Boston Skywalk Apartment</p>
+											<span>$305.000</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Social Feed</h6>
+								</div>
+								<ul class="social-feed-widget">
+									<li class="single-sfw">
+										<p><a href="properties-sidebar.html#">@listio_us</a> Which one of Boston renovated properties is already giving his owner millions and why. <a href="properties-sidebar.html#">http://list.io/5525</a> <span class="flatform-name">twitter</span></p>
+									</li>
+									<li class="single-sfw">
+										<p><a href="properties-sidebar.html#">Listio Properties</a> : We have just launched our new website that is serious game changer. Check it out and let us know what you think about it. <a href="properties-sidebar.html#">http://list.io</a> <span class="flatform-name">facebook</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<!-- .single-footer-widget -->
+							<div class="single-footer-widget">
+								<div class="widget-title">
+									<h6>Best from Blog</h6>
+								</div>
+								<ul class="blog-widgets">
+									<li class="single-bw">	
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/4.png" alt="Property" />
+											<p>Bathrooms you haven’t seen before</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/5.png" alt="Property" />
+											<p>How to properly enjoy your holidays</p>
+											<span>Read now</span>
+										</a>
+									</li>
+									<li class="single-bw">
+										<a href="properties-sidebar.html#">
+											<img src="images/thumbs/6.png" alt="Property" />
+											<p>Most comfortable hotel bedrooms</p>
+											<span>Read now</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- .footer-bottom -->
+			<div class="footer-bottom">
+				<div class="container">
+				
+					<div class="row">
+					
+						<div class="col-md-6 col-sm-6 mobile-center">
+							<span class="copyright-text">© Copyright 2015, All Rights Reserved, <a href="properties-sidebar.html#">Listio</a></span>
+						</div>
+						
+						<div class="col-md-6 col-sm-6 text-right mobile-center">                              
+							<ul class="footer-links">
+								<li><a href="properties-sidebar.html#">Home</a></li>
+								<li><a href="properties-sidebar.html#">Terms</a></li>
+								<li><a href="properties-sidebar.html#">Conditions</a></li>
+								<li><a href="properties-sidebar.html#">Privacy</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+		</div><!-- .footer-area End -->
+		
+		
+		
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		
+		<script src="js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- jQuery Simple Form
+		================================================== -->
+		<!--<script src="lib/Simple-Form/validation.js"></script>
+		<script src="lib/Simple-Form/form.js"></script>
+		<script src="lib/Simple-Form/index.js"></script>-->
+		
+		<!-- jQuery Filterizr.js
+		================================================== -->
+		<script src="lib/filterizr/jquery.filterizr.js"></script>
+		
+		<!-- jQuery Magnific-Popup
+		================================================== -->
+		<script src="lib/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+		
+		<!-- Select2
+		================================================== -->
+		<script src="lib/select2/js/select2.min.js"></script>
+		
+		<!-- jQuery BxSlider
+		================================================== -->
+		<script src="lib/BxSlider/jquery.bxslider.min.js"></script>
+		
+		<!-- Google Map
+		================================================== -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+		
+		<!-- jQuery Custom
+		================================================== -->
+		<script src="js/custom.js" type="text/javascript"></script>
+	
+	</body>
+</html>

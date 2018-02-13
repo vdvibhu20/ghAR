@@ -1,0 +1,223 @@
+/*Background Colors*/
+
+.overlay,
+.sp-top-over,
+.spi-over,
+.post-video a,
+.sp-edit-over{
+	background:rgba(67,63,72,.8);
+}
+
+.section-head h3:after{
+	background:#c55383;
+}
+.button,
+.nav-options li .search-form input[type="submit"]:hover{
+	background:#cb8556;
+}
+.button:hover,
+.header-links ul li a.alt,
+.partners-area{
+	background:#c55383;
+}
+.button.alt{
+	background:#5f626e;
+}
+.button.alt:hover{
+	background:#c55383;
+}
+.header-links ul li a.alt:hover{
+	background:#3d3738;
+}
+.nav-links > li > ul,
+.radio-button li:after{
+	background:#d7dbe0;
+}
+.nav-links li ul li ul,
+.nav-options li .search-form input[type="submit"]{ 
+	background:#ccd0d7;
+}
+.for-sale{
+	background:#da586d;
+}
+.for-rent{
+	background:#da8058;
+}
+.search-property-area.dark{
+	background:#434655;
+}
+.radio-button,
+.featured-property{
+	background:#fff;
+}
+.footer-area{
+	background:#353741;
+}
+.HomeO .header-content h1:after{
+	background:#6a6c77;
+}
+.featured-properties-area.dark{
+	background:#3a3c42;
+}
+.bx-pager-item a.active{
+	background:#b2afad;
+}
+.line-button,
+.category-navigation .nav > li > a:hover,
+.category-navigation .nav > li > a:focus{
+	background:transparent;
+}
+
+
+/*Text Colors*/
+
+.line-button,
+.line-button:hover,
+.line-button.blue:hover,
+.button,
+.button:hover,
+.dark .section-head h3,
+.header-links ul li a,
+.header-links ul li a.alt:hover,
+.nav-options li .search-form input[type="submit"]:hover,
+.header-content h1,
+.sp-badge,
+.dark .single-form-element .sfe-label,
+.single-widget p,
+.copyright-text,
+.copyright-text a,
+.footer-links li a,
+.header-content h6,
+.line-button.brown:hover,
+.line-button.purple:hover,
+.pp-badge,
+.header-content-purple h1{
+	color:#fff;
+}
+.widget-title h6,
+.single-pw a span,
+.single-bw a span{
+	color:#d1d1d2;
+}
+p,
+.category-navigation .nav-tabs > li > a,
+.property-meta li,
+.single-testimonials blockquote{
+	color:#868995;
+}
+
+.header-links ul li a:hover{
+	color:#c55383;
+}
+.section-head h3,
+.fp-texts h3{
+	color:#5f626e;
+}
+.line-button.grey{
+	color:#d4dee2;
+}
+.line-button.purple,
+.nav-links li ul li a:hover,
+.nav-links li ul li ul li a:hover{
+	color:#c55383;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li:hover > a,
+.line-button.brown{
+	color:#c55383;
+}
+
+.line-button.blue,
+.single-sfw a:hover,
+.copyright-text a:hover,
+.footer-links li a:hover{
+	color:#cb8556;
+}
+.nav-links li  ul li a,
+.nav-links li  ul li ul li a,
+.navbar-default .navbar-nav > li > a,
+.nav-options li .search-form input[type="submit"]{ 
+	color:#495863;
+}
+.category-navigation .nav-tabs > li > a:hover,
+.category-navigation .nav-tabs > li.active > a,
+.category-navigation .nav-tabs > li.active > a:hover,
+.category-navigation .nav-tabs > li.active > a:focus,
+.cc-texts h2,
+.fp-texts h5 {
+	color:#3c4042;
+}
+.single-form-element .sfe-label{
+	color:#4e5260;
+}
+.sp-bottom h5,
+.sp-bottom h4,
+.sp-bottom h4 small{
+	color:#323541;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.single-form-element input[type="text"],
+.radio-button li{
+	color: #97a0ac;
+}
+.radio-button li input[type=radio]:checked ~ label{
+	color: #544c5d;
+}
+.flatform-name,
+.single-sfw a{
+	color:#bbbfce;
+}
+
+/*Border Colors*/
+
+.line-button.grey{
+	border-color: #d4dee2;
+}
+.line-button{
+	border-color: #fff;
+}
+.line-button.purple{
+	border-color:#c55383;
+}
+.line-button.blue,
+.nav-links li ul li a:hover,
+.nav-options li .search-form input[type="submit"]:hover{
+	border-color: #cb8556;
+}
+.line-button.brown,
+.line-button:hover{
+	border-color:#c55383;
+}
+.nav-links > li > ul,
+.nav-links li ul li a{
+	border-color:#495863;
+}
+.nav-links li ul li,
+.nav-options li .social-share,
+.nav-options li .search-form input[type="text"],
+.nav-options li .search-form input[type="submit"]{
+	border-color:#ccd0d7;
+}
+
+.nav-links li  ul li ul li{ 
+	border-color: #c2c7ce;
+}
+.home-category-area,
+.category-navigation,
+.sp-bottom,
+.mw-properties-area,
+.single-testimonials,
+.bottom-sap{
+	border-color: #eee;
+}
+.footer-top{
+	border-color:#3d3e47;
+}
+.select2-container--default .select2-selection--single,
+.single-form-element input[type="text"],
+.radio-button {
+	border-color:#d7dbe0;
+}
+.bx-pager-item a{
+	border-color:#b2afad !important;
+}

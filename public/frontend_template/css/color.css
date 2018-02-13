@@ -1,0 +1,379 @@
+/*Background Colors*/
+
+.overlay,
+.sp-top-over,
+.spi-over,
+.post-video a,
+.sp-edit-over{
+	background:rgba(67,63,72,.8);
+}
+.dark-overlay{
+	background:rgba(53,55,65,.95);
+}
+.header-form{
+	background:rgba(63,57,62,.33);
+}
+
+.button,
+.section-head h3:after,
+.nav-options li .search-form input[type="submit"]:hover,
+.category-navigation .nav > li.active > a span:after,
+.category-navigation .nav > li > a:hover span:after,
+.partners-area,
+.checkbox-button input[type="checkbox"]:checked+label:after,
+.user-profile-navigation .nav-tabs > li.active > a,
+.user-profile-navigation .nav-tabs > li.active > a:hover,
+.user-profile-navigation .nav-tabs > li.active > a:focus,
+.user-profile-navigation .nav-tabs > li.active > a span:after,
+.user-profile-navigation .nav > li > a:hover,
+.user-profile-navigation .nav > li > a:focus,
+.user-profile-navigation .nav > li > a:hover span:after,
+.header4 .header-links ul li a.alt{
+	background:#43abd2;
+}
+.button:hover,
+.button.alt:hover,
+.header-links ul li a.alt,
+.sb-date,
+.full-blog-date h6{
+	background:#85ca77;
+}
+.header-bar{
+	background:#73798c;
+}
+.header-bar .header-links ul li a.alt{
+	background:#464a59;
+}
+.button.alt,
+.simplefilter li.active{
+	background:#5f626e;
+}
+.header-links ul li a.alt:hover,
+.header4 .header-links ul li a:hover{
+	background:#3d3738;
+}
+.nav-links > li > ul,
+.radio-button li:after,
+.property-pagination .pagination > li:after,
+.user-profile-navigation .nav-tabs > li > a span:after{
+	background:#d7dbe0;
+}
+.nav-links li ul li ul,
+.nav-options li .search-form input[type="submit"]{ 
+	background:#ccd0d7;
+}
+.for-sale{
+	background:#86cb79;
+}
+.for-rent{
+	background:#79cb9d;
+}
+.search-property-area.dark{
+	background:#434655;
+}
+.radio-button,
+.featured-property,
+.single-property,
+.property-short,
+.property-position,
+.property-pagination,
+.sidebar-area,
+.single-properties-intro,
+.single-properties-features,
+.multi-step-form-nav.nav-tabs > li > a,
+.multi-step-form-content,
+.msf-next-prev,
+.single-blog,
+.single-agent,
+.agent-single-page,
+.full-blog-post,
+.spa-with-sidebar,
+.user-profile-navigation,
+.user-profile-content,
+.simplefilter li,
+.single-gallery-image,
+.header-form-innr{
+	background:#fff;
+}
+.footer-area{
+	background:#353741;
+}
+.featured-properties-area.dark{
+	background:#3a3c42;
+}
+.bx-pager-item a.active{
+	background:#b2afad;
+}
+.line-button,
+.category-navigation .nav > li > a:hover,
+.category-navigation .nav > li > a:focus{
+	background:transparent;
+}
+.partners-area.dark{
+	background:#494c58;
+}
+.grey-bg{
+	background:#dee5e9;
+}
+.log-in-modal .modal-content,
+.log-in-modal .modal-content .single-form-element input[type="text"],
+.full-with-nav{
+	background:#f8f8f8;
+}
+.multi-step-form-nav.nav-tabs > li.active > a,
+.multi-step-form-nav.nav-tabs > li.active > a:hover,
+.multi-step-form-nav.nav-tabs > li.active > a:focus{
+	background:#363b40;
+}
+.header4 .header-links ul li a{
+	background:#4eccc2;
+}
+
+/*Text Colors*/
+
+.line-button,
+.line-button:hover,
+.line-button.blue:hover,
+.button,
+.button:hover,
+.dark .section-head h3,
+.header-links ul li a,
+.header-links ul li a.alt:hover,
+.nav-options li .search-form input[type="submit"]:hover,
+.header-content h1,
+.sp-badge,
+.dark .single-form-element .sfe-label,
+.single-footer-widget p,
+.copyright-text,
+.copyright-text a,
+.footer-links li a,
+.header-content h6,
+.header-heading h3,
+.breadcomes a,
+.pp-badge,
+.multi-step-form-nav.nav-tabs > li.active > a,
+.multi-step-form-nav.nav-tabs > li.active > a:hover,
+.multi-step-form-nav.nav-tabs > li.active > a:focus,
+.user-profile-navigation .nav-tabs > li.active > a,
+.user-profile-navigation .nav-tabs > li.active > a:hover,
+.user-profile-navigation .nav-tabs > li.active > a:focus,
+.sb-date,
+.single-services h6,
+.full-blog-date,
+.header-content h3,
+.large404,
+.user-profile-navigation .nav > li > a:hover,
+.user-profile-navigation .nav > li > a:focus,
+.line-button.brown:hover,
+.line-button.grey:hover,
+.simplefilter li.active,
+.header-text h2,
+.header4 .header-links ul li a:hover{
+	color:#fff;
+}
+.single-services p{
+	color:#c2c4cb;
+}
+.user-profile-navigation .nav-tabs > li > a{
+	color:#b0bac7;
+}
+.widget-title h6,
+.single-pw a span,
+.single-bw a span{
+	color:#d1d1d2;
+}
+p,
+.category-navigation .nav-tabs > li > a,
+.property-meta li,
+.single-testimonials blockquote,
+.single-properties-feature,
+.some-spe-text,
+.sb-meta li,
+.sb-meta li a,
+.single-agent h5,
+.contact-list li,
+.office-info li,
+.single-pf input[type="checkbox"]+label{
+	color:#868995;
+}
+.checkbox-button li span{
+	color:#b5b7bc;
+}
+.section-info,
+.checkbox-button li label{
+	color:#494b54;
+}
+.header-links ul li a:hover{
+	color:#85ca77;
+}
+.section-head h3,
+.fp-texts h3{
+	color:#5f626e;
+}
+.line-button.blue,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li:hover > a,
+.single-sfw a:hover,
+.copyright-text a:hover,
+.footer-links li a:hover,
+.breadcomes a:hover,
+.single-sidebar-widget ul li a:hover,
+.form-nav li a:hover,
+.sb-meta li a:hover,
+.sb-bottom h5 a:hover,
+.smm-info span,
+.nav-links li  ul  li a:hover,
+.nav-links li  ul li ul li a:hover{
+	color:#43abd2;
+}
+.nav-links li  ul  li a,
+.nav-links li  ul li ul li a,
+.navbar-default .navbar-nav > li > a,
+.nav-options li .search-form input[type="submit"],
+.multi-step-form-nav.nav-tabs > li > a{ 
+	color:#495863;
+}
+.category-navigation .nav-tabs > li > a:hover,
+.category-navigation .nav-tabs > li.active > a,
+.category-navigation .nav-tabs > li.active > a:hover,
+.category-navigation .nav-tabs > li.active > a:focus,
+.cc-texts h2,
+.fp-texts h5 {
+	color:#3c4042;
+}
+.single-form-element .sfe-label{
+	color:#4e5260;
+}
+.sp-bottom h5,
+.sp-bottom h4,
+.sp-bottom h4 small,
+.sidebar-widget-title,
+.property-preview-text h3,
+.property-preview-text h4,
+.spi-texts h3,
+.spi-texts h4,
+.single-properties-features h3,
+.appointment-modal h3,
+.form-nav li a,
+.section-subhead,
+.sb-bottom h5 a,
+.single-agent h5,
+.agent-position,
+.asp-texts h6,
+.asp-texts h3,
+.comment-form h5,
+.comments-list h5,
+.full-blog-title h3,
+.comment-info h6 a,
+.office-address h6,
+.office-address span,
+.office-info li span,
+.user-profile-content h3,
+.single-member-message h6,
+.page-content h6{
+	color:#323541;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.single-form-element input[type="text"],
+.radio-button li,
+.property-pagination .pagination > li > a,
+.sidebar-search input[type="text"],
+.single-sidebar-widget ul li a,
+.single-form-element textarea,
+.simplefilter li,
+.line-button.grey{
+	color: #97a0ac;
+}
+.radio-button li input[type=radio]:checked ~ label,
+.pagination  li.active a,
+.pagination  li.active a:hover,
+.pagination  li.active a:focus{
+	color: #544c5d;
+}
+.flatform-name,
+.single-sfw a{
+	color:#bbbfce;
+}
+.line-button.brown{
+	color: #e8a69d;
+}
+/*Border Colors*/
+
+.line-button.grey{
+	border-color: #d4dee2;
+}
+.line-button.brown{
+	border-color: #e8a69d;
+}
+.line-button,
+.grey-bg .sp-bottom,
+.breadcomes li:after{
+	border-color: #fff;
+}
+.line-button.blue,
+.nav-links li ul li a:hover,
+.nav-options li .search-form input[type="submit"]:hover,
+.checkbox-button input[type="checkbox"]:checked+label:before{
+	border-color: #43abd2;
+}
+.single-pf input[type="checkbox"]:checked+label{
+	border-color: #67b555;
+}
+.line-button:hover{
+	border-color:#85ca77;
+}
+.nav-links > li > ul,
+.nav-links li ul li a{
+	border-color:#495863;
+}
+.nav-links li ul li,
+.nav-options li .social-share,
+.nav-options li .search-form input[type="text"],
+.nav-options li .search-form input[type="submit"]{
+	border-color:#ccd0d7;
+}
+
+.nav-links li  ul li ul li{ 
+	border-color: #c2c7ce;
+}
+
+.home-category-area,
+.category-navigation,
+.sp-bottom,
+.mw-properties-area,
+.single-testimonials,
+.bottom-sap,
+.property-position,
+.property-shorting,
+.property-pagination,
+.lsr-head,
+.multi-step-form-content,
+.team-member-area,
+.stm-bottom,
+.full-blog-innr,
+.comments-list,
+.contact-area,
+.single-contact-info,
+.submit-new-properties,
+.myproperties .single-property.large .sp-bottom,
+.properties-section,
+.page-content{
+	border-color: #eee;
+}
+.select2-container--default .select2-selection--single,
+.single-form-element input[type="text"],
+.radio-button,
+.sidebar-search,
+.property-tags li a,
+.single-form-element textarea,
+.checkbox-button input[type="checkbox"]+label:before,
+.single-pf input[type="checkbox"]+label,
+.drop-zone {
+	border-color:#d7dbe0;
+}
+.footer-top{
+	border-color:#3d3e47;
+}
+.bx-pager-item a{
+	border-color:#b2afad !important;
+}
