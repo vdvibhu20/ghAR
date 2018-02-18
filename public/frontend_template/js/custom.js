@@ -59,6 +59,34 @@ jQuery(function () {
 			jQuery(this).addClass("active");
 		});
 
+		jQuery('#main-form').submit(function(e){
+			alert('submit');
+			$.ajax({
+				url: '/submitProperty',
+                type: 'post',
+                dataType: 'json',
+                data: $('#main-form').serialize(),
+                success: function(data) {
+					console.log('received data');
+					console.log(data);
+                }
+			})
+		})
+
+		jQuery('#submit-main-form').on('click', function (e) {
+            alert('submit');
+            $.ajax({
+                url: '/submitProperty',
+                type: 'post',
+                dataType: 'json',
+                data: $('#main-form').serialize(),
+                success: function(data) {
+                    console.log('received data');
+                    console.log(data);
+                }
+            })
+        })
+
 	});
 	
 }());

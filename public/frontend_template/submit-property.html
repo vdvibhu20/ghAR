@@ -37,6 +37,7 @@
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
 			<script src="js/respond.min.js"></script>
+
 		<![endif]-->
 		
 	</head>
@@ -313,7 +314,7 @@
 					</div>
 				</div>
 				
-				<form action="property-submit.php.html" class="property-submit-form">
+				<form action="/submitProperty" method="post" id="main-form" class="property-submit-form">
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="form-step-1">
 							<div class="multi-step-form-content">
@@ -323,7 +324,7 @@
 										<!-- .single-form-element -->
 										<div class="single-form-element">
 											<span class="sfe-label">Property Title</span>
-											<input type="text" placeholder="Enter your title (max 50 characters)" name="property-title" />
+											<input type="text" placeholder="Enter your title (max 50 characters)" name="property-title" required/>
 										</div>
 									</div>
 								</div>
@@ -332,7 +333,7 @@
 										<!-- .single-form-element -->
 										<div class="single-form-element">
 											<span class="sfe-label">Property Description</span>
-											<textarea name="property-description" placeholder="About the Property" id="property-description"></textarea>
+											<textarea name="property-description" placeholder="About the Property" id="property-description" required></textarea>
 										</div>
 									</div>
 								</div>
@@ -839,7 +840,7 @@
 									<div class="col-md-12">
 										<ul class="clearfix">
 											<li class="pull-left"><a class="prev-tab button line-button grey" href="submit-property.html#">Go Back</a></li>
-											<li class="pull-right"><input type="submit" class="button" value="Submit the Property" /></li>
+											<li class="pull-right"><input id="submit-main-form" type="submit" class="button" value="Submit the Propertys" /></li>
 										</ul>
 									</div>
 								</div>
